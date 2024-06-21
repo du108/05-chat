@@ -1,0 +1,8 @@
+###
+
+get http://localhost:8080/
+
+
+###
+
+post http://localhost:8080/api/signin

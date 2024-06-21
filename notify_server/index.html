@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notify server</title>
+</head>
+<body>
+
+    <script lang="javascript">
+        // 这里编写你的代码，用于处理通知请求。
+        var source = new EventSource("/event");
+        source.onmessage = function(event) {
+            console.log("Received notification: " + event.data);
+        };
+    </script>
+</body>
+</html>
