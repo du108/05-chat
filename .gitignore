@@ -1,3 +1,4 @@
 /target
-/chat-server/target
-/chat-server/assets
+chat-server/target
+chat-server/assets
+migrations/
